@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .container-item {
+  margin-top: 160px;
+}
+.container .container-item .container-content h1 {
+  color: var(--White, #FFF);
+  font-size: 38px;
+}
+.container .container-item .container-content2 {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.container .container-item .container-content2 p {
+  color: var(--White, #FFF);
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.container .container-item .container-content2 button {
+  display: flex;
+  height: 60px;
+  padding: 0px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #2B2B2B;
+  border-radius: 20px;
+  border: 2px solid #A259FF;
+  color: #FFF;
+  margin-left: 370px;
+}
+.container .images {
+  margin-top: 60px;
+}
+.container .images .images-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px auto;
+  gap: 60px;
+  margin-top: 40px;
+}
+.container .images .images-item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px auto;
+  gap: 60px;
+  margin-top: 40px;
+}
+.container .images .images-item3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px auto;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1200px) and (min-width: 990px) {
+  .container .container-item {
+    margin-top: 160px;
+  }
+  .container .container-item .container-content h1 {
+    font-size: 38px;
+  }
+  .container .container-item .container-content2 {
+    display: flex;
+    display: block;
+    margin-bottom: 200px;
+  }
+  .container .container-item .container-content2 button {
+    margin-left: 700px;
+  }
+  .container .images {
+    margin-left: 150px;
+    margin-top: 2px;
+  }
+  .container .images .images-item {
+    gap: 25px;
+  }
+  .container .images .images-item2 {
+    gap: 25px;
+  }
+  .container .images .images-item3 {
+    gap: 25px;
+  }
+}
+.container .asus .asus-titl {
+  margin-top: 160px;
+}
+.container .asus .asus-titl h1 {
+  color: var(--White, #FFF);
+  font-size: 38px;
+  margin-left: 20px;
+}
+.container .asus .asusla {
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.container .asus .asusla .asus-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 40px;
+}
+.container .asus .asusla .asus-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1200px) and (min-width: 990px) {
+  .container .asus .asus-titl {
+    margin-top: 100px;
+  }
+  .container .asus .asus-titl h1 {
+    width: 690px;
+    height: 39px;
+    font-size: 38px;
+  }
+  .container .asus .asusla {
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .container .asus .asusla .asus-image {
+    margin-left: 45px;
+  }
+  .container .asus .asusla .asus-image img {
+    width: 200px;
+    gap: 40px;
+  }
+  .container .asus .asusla .asus-image2 {
+    margin-left: 45px;
+  }
+  .container .asus .asusla .asus-image2 img {
+    width: 200px;
+    gap: 40px;
+  }
+}
+@media (max-width: 990px) and (min-width: 769px) {
+  .container .asus .asus-titl {
+    margin-top: 100px;
+  }
+  .container .asus .asus-titl h1 {
+    width: 690px;
+    height: 39px;
+    font-size: 38px;
+  }
+  .container .asus .asusla {
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  .container .asus .asusla .asus-image {
+    margin-left: 250px;
+    gap: 40px;
+  }
+  .container .asus .asusla .asus-image .iv {
+    display: none;
+  }
+  .container .asus .asusla .asus-image2 {
+    margin-left: 250px;
+    gap: 40px;
+  }
+  .container .asus .asusla .asus-image2 .iv2 {
+    display: none;
+  }
+}
+@media (max-width: 769px) and (min-width: 447px) {
+  .containe .asus .asus-titl h1 {
+    width: Fixed 315px;
+    height: Hug 46px;
+    gap: 10px;
+  }
+  .containe .asus .asusla {
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  .containe .asus .asusla .asus-image {
+    flex-direction: column;
+  }
+  .containe .asus .asusla .asus-image img {
+    display: flex;
+    flex-direction: column;
+  }
+  .containe .asus .asusla .asus-image2 img {
+    flex-direction: column;
+  }
+}
+.container .mers-item .merslar {
+  margin-top: 160px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 730px;
+}
+.container .mers-item .merslar .mers h1 {
+  color: var(--White, #FFF);
+  font-size: 38px;
+}
+.container .mers-item .merslar .mers p {
+  color: var(--White, #FFF);
+  font-size: 22px;
+}
+.container .mers-item .merslar .mers-2 button {
+  width: 200px;
+  height: 50px;
+  color: var(--White, #FFF);
+  font-size: 22px;
+  border-radius: 20px;
+  border: 2px solid #A259FF;
+  background: #2B2B2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .mers-item .merslar .mers-2 button span {
+  text-align: center;
+  font-size: 16px;
+}
+.container .mers-item .mers-images {
+  margin-top: 70px;
+}
+.container .mers-item .mers-images .mers-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+@media (max-width: 1200px) and (min-width: 990px) {
+  .container .mers-item .merslar {
+    margin-top: 130px;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+  }
+  .container .mers-item .merslar .mers h1 {
+    width: 300px;
+    font-size: 28px;
+  }
+  .container .mers-item .merslar .mers p {
+    font-size: 16px;
+  }
+  .container .mers-item .merslar .mers-2 button {
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+  }
+  .container .mers-item .mers-images {
+    margin-top: 50px;
+  }
+  .container .mers-item .mers-images .mers-img {
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+  .container .mers-item .mers-images .mers-img .dis-none img {
+    display: none;
+  }
+}
+@media (max-width: 990px) and (min-width: 769px) {
+  .container .mers-item .merslar {
+    margin-top: 130px;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+  }
+  .container .mers-item .merslar .mers h1 {
+    width: 300px;
+    font-size: 28px;
+  }
+  .container .mers-item .merslar .mers p {
+    font-size: 16px;
+  }
+  .container .mers-item .merslar .mers-2 button {
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+  }
+  .container .mers-item .mers-images {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .container .mers-item .mers-images .mers-img {
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+  .container .mers-item .mers-images .mers-img .dis-none img {
+    display: none;
+  }
+}
+@media (max-width: 769px) and (min-width: 447px) {
+  .container .mers-item .merslar .mers h1 {
+    width: 715px;
+    height: 39px;
+    font-size: 60px;
+  }
+  .container .mers-item .merslar .mers p {
+    width: 715px;
+    height: 39px;
+    font-size: 60px;
+    margin-top: 20px;
+  }
+  .container .mers-item .merslar .mers-2 button {
+    display: none;
+  }
+  .container .mers-item .mers-images {
+    margin-top: 100px;
+  }
+  .container .mers-item .mers-images .mers-img {
+    flex-direction: column;
+    margin-left: 430px;
+  }
+  .container .mers-item .mers-images .mers-img img {
+    width: 700px;
+  }
+}/*# sourceMappingURL=container.css.map */
